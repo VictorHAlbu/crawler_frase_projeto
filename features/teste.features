@@ -1,0 +1,8 @@
+#language: pt
+#encoding: ansi
+Funcionalidade: Crawler
+Objetivo página indetificar os dados em somente um buscador
+	
+    Cenário: Capturar dados do sistema http://quotes.toscrape.com/
+        Dado que eu entrei no quotes
+        Então devo cadastrar os dados no banco de dados
